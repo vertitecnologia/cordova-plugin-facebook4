@@ -1,0 +1,5 @@
+dependencies {
+    compile("com.facebook.android:facebook-android-sdk:5.5.2") {
+        exclude group: 'com.google.zxing'
+    }
+}
